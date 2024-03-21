@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #606060;
+}
+
+.quadro {
+    margin: 20px auto 25px;
+    width: 400px;
+    height: 400px;
+    background: #404040;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 10px 10px 0px #808080;
+}
+
+.box {
+    cursor: pointer;
+    border: 4px solid #436d4c;
+    width: 33.3%;
+    height: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+background: #474747;
+}
+
+.box-1 {
+    border-left: none;
+    border-top: none;
+}
+
+.box-2 {
+    border-top: none;
+}
+
+.box-3 {
+    border-right: none;
+    border-top: none;
+}
+
+.box-4 {
+    border-left: none;
+
+}
+
+.box-6 {
+    border-right: none;
+}
+
+.box-7 {
+    border-left: none;
+    border-bottom: none;
+}
+
+.box-8 {
+    border-bottom: none;
+}
+
+.box-9 {
+    border-right: none;
+    border-bottom: none;
+}
+
+.x {
+    font-size: 100px;
+    color: #3c78d1;
+    text-transform: uppercase;
+}
+
+.o {
+    font-size: 100px;
+    color: #c52323;
+    text-transform: uppercase;
+}
+
+
+.placar {
+    margin: 0 auto 25px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #eee;
+    font-weight: 500;
+    font-size: 25px;
+    background: #404040;
+    border-radius: 25px;
+    box-shadow: 10px 10px 0px #808080;
+
+}
+
+.value {
+    font-size: 35px;
+    color: #56c5c0;
+}
+
+.text {
+    text-align: center;
+    margin: 15px 0;
+    color: #6cc556;
+    text-transform: uppercase;
+}
+
+button {
+    margin: 0 auto;
+    color: #eee;
+    font-size: 20px;
+    font-weight: 600;
+    width: 130px;
+    height: 60px;
+    box-shadow: 5px 5px 0px #808080;
+    background: #404040;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.btn {
+    text-align: center;
+}
+button:active {
+    box-shadow:none;
+    position: relative;
+    right: -5px;
+    bottom: -5px;
+    transition: 100ms;
+}
+
+button:hover {
+    opacity: 0.8;
+}
